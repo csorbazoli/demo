@@ -19,7 +19,7 @@ public class DemoApplicationTests {
 	@Test
 	public void contextLoads() {
 		String actual = app.getValueProp();
-		Assert.assertEquals("localhost", actual);
+		Assert.assertEquals("localhost2", actual);
 	}
 
 }
