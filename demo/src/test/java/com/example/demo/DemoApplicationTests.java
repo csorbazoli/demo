@@ -15,8 +15,8 @@ public class DemoApplicationTests {
 
 	@Autowired
 	DemoApplication app;
-	
-	@Test 
+
+	@Test
 	public void contextLoads() {
 		String actual = app.getValueProp();
 		Assert.assertEquals("localhost", actual);
